@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>First Task</title>
+    <meta name="description" content="App to help you organize">
+    <meta name="author" content="Rula, Wayne, Melanie, Abby, Isabel">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all tasks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Ubuntu:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+
+    <img src="img/logo2.png" class="logo">
+    <!-- <div class="logo">
+      <h1>FirstTask</h1> -->
+    </div>
+
+<div class="task">
+  <a  href="Mainscreen.html" ><button class="btn"><i  class="fa fa-home"></i></button></a>
+  <h3>Important Tasks</h3>
+</div>
+
+<p class="line2"> </p>
+
+    <body class="content2">
+
+<div>
+<h2 id="current-date">October 1st, 2018</h2>
+</div>
+
+
+<main class="task-list">
+<label class="container two">
+        <button onclick="dropdown_function()" class="dropbtn">Throw Jamie's birthday party</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#placeholder">
+            <label class="container complete dropDown">Send Invitations
+            </label>
+            <label class="container dropDown">Buy Gifts
+            </label>
+          </a>
+        </div>
+</label>
+
+<label class="container complete two">Pay water bill
+</label>
+
+<!-- <label class="container complete two">Make cupcakes for Sophia's bake sale </label> -->
+<button  class="container two btn" type="button" onclick="myFunction()">Make cupcakes for Sophia's bake sale</button>
+
+<label class="container complete two">Schedule Jamie's dentist appointment
+</label>
+
+
+<script src="js/app.js"></script>
+
+</main>
+  </body>
+</html>
